@@ -2,7 +2,7 @@ name: Post merge workflow
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ master ]
 
 jobs:
   # This workflow contains a single job called "build"
@@ -22,7 +22,7 @@ jobs:
           java-version: 1.8
 
       - name: Build apks
-        run: ./gradlew :toggles-app:packageDebug :toggles-sample:packageDebug
+        run: ./gradlew build
 
       - name: Upload apks
         uses: actions/upload-artifact@v2
