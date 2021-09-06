@@ -107,7 +107,7 @@ dependencies {
     testImplementation("androidx.test:rules:1.3.0")
     testImplementation("androidx.test:runner:1.3.0")
     testImplementation("androidx.test.ext:junit:1.1.2")
-    testImplementation("org.mockito:mockito-android:3.5.13")
+    testImplementation("org.mockito:mockito-android:3.12.4")
 //    testImplementation("androidx.room:room-testing:2.3.0-alpha02")
     testImplementation("org.robolectric:robolectric:4.4")
     testImplementation("androidx.test.espresso:espresso-core:3.3.0")
