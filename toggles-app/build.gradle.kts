@@ -159,7 +159,7 @@ dependencies {
     implementation(project(":toggles-core"))
     implementation(project(":toggles-prefs"))
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.30")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
 
     implementation("androidx.core:core-ktx:1.5.0-alpha03")

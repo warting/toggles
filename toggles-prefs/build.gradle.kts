@@ -50,7 +50,7 @@ dependencies {
 
     implementation(project(":toggles-core"))
     implementation("androidx.annotation:annotation:1.2.0-alpha01")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.30")
     implementation("androidx.core:core-ktx:1.5.0-alpha03")
 }
 
