@@ -146,7 +146,7 @@ dependencies {
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-alpha07")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha07")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-alpha03")
     implementation("androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-alpha07")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.3.0-alpha07")
     implementation("androidx.room:room-runtime:2.3.0-alpha02")
