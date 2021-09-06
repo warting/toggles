@@ -151,7 +151,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.3.0-alpha07")
     implementation("androidx.room:room-runtime:2.3.0-alpha02")
     implementation("androidx.room:room-ktx:2.3.0-alpha02")
-    implementation("androidx.paging:paging-runtime:3.0.0-alpha06")
+    implementation("androidx.paging:paging-runtime:3.1.0-alpha03")
 
     implementation("androidx.navigation:navigation-fragment-ktx:2.3.0")
     implementation("androidx.navigation:navigation-ui-ktx:2.3.0")
