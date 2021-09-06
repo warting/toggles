@@ -99,7 +99,7 @@ android {
 }
 
 dependencies {
-    testImplementation("junit:junit:4.13")
+    testImplementation("junit:junit:4.13.2")
     testImplementation("org.mockito:mockito-core:3.5.13")
 
     testImplementation("androidx.test:core:1.3.0")

@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-    testImplementation("junit:junit:4.13")
+    testImplementation("junit:junit:4.13.2")
 
     implementation(project(":toggles-core"))
     implementation("androidx.annotation:annotation:1.2.0-alpha01")
