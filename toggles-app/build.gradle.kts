@@ -134,7 +134,7 @@ dependencies {
     kaptTest("com.google.dagger:hilt-android-compiler:2.28-alpha")
 
     implementation("androidx.lifecycle:lifecycle-common-java8:2.3.0-alpha07")
-    kapt("androidx.room:room-compiler:2.3.0-alpha02")
+    kapt("androidx.room:room-compiler:2.4.0-alpha04")
 
     implementation("com.google.dagger:dagger:2.29.1")
     kapt("com.google.dagger:dagger-compiler:2.29.1")
