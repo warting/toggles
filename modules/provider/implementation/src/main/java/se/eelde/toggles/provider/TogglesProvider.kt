@@ -216,7 +216,7 @@ class TogglesProvider : ContentProvider() {
         return callingApplication.packageName == requireContext.packageName
     }
 
-    @Suppress("LongMethod")
+    @Suppress("LongMethod", "CyclomaticComplexMethod")
     override fun insert(uri: Uri, values: ContentValues?): Uri {
         val callingApplication = getCallingApplication(applicationDao)
 
@@ -293,7 +293,12 @@ class TogglesProvider : ContentProvider() {
                     type = togglesConfiguration.type,
                     lastUse = clock.now(),
                 )
-                insertId = configurationDao.insert(databaseConfiguration)
+                insertId = try {
+                    configurationDao.insert(databaseConfiguration)
+                } catch (e: SQLiteConstraintException) {
+                    configurationDao.getTogglesConfiguration(callingApplication.id, togglesConfiguration.key)?.id
+                        ?: throw e
+                }
                 crossNotifyUri = TogglesProviderContract.toggleUri(insertId)
             }
 
